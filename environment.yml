@@ -1,4 +1,11 @@
 name: python-testing
+channels:
+  - conda-forge
+  - pytorch
 dependencies:
   - numpy
   - matplotlib
+  - pytorch 
+  - torchvision 
+  - torchaudio 
+  - cudatoolkit=11.1
